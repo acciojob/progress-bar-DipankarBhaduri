@@ -1,35 +1,14 @@
 /*  your css code here. If applicable */
-/*  your css code here. If applicable */
-section {
-   height:300px;  
-  display:flex;
-  flex-flow:column wrap;
-  justify-content:center;
-  align-items:center;
-  gap:40px;
+#circle-1,#circle-2,#circle-3,#circle-4,#circle-5
+{
+	width:20px;
+	height:20px;
+	border-radius:100%;
+	border:2px solid blue;
+	padding:3px;
+	text-align:center;	
 }
-.line{
-  heigth:2px;
-  border :2px solid blue;
-  
+.container{
+	display:flex;
+	gap:10px;
 }
-.one{
-/*   width:50px;
-  height:50px; */
-  padding:20px;
-  border:1px solid red;
-  border-radius:50%;
-}
-.top{
-  display:flex;
-  flex-flow: row wrap;
-  width:50%;
-  border:2px solid red;
-  align-items:center;
-
-}
-.line{
-  flex-grow:1;
-}
-
-
