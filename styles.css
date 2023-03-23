@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+section {
+   height:300px;  
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+}
+.line{
+  heigth:2px;
+  border :2px solid blue;
+  
+}
+.one{
+/*   width:50px;
+  height:50px; */
+  padding:20px;
+  border:1px solid red;
+  border-radius:50%;
+}
+.top{
+  display:flex;
+  flex-flow: row wrap;
+  width:50%;
+  border:2px solid red;
+  align-items:center;
+
+}
+.line{
+  flex-grow:1;
+}
+
+
